@@ -40,7 +40,7 @@ export OPENAI_API_KEY="your-api-key-here"
 
 #### On Windows (Command Prompt):
 ```cmd
-set OPENAI_API_KEY=your-api-key-here
+set OPENAI_API_KEY="your-api-key-here"
 ```
 
 #### On Windows (PowerShell):
@@ -59,7 +59,4 @@ python main.py
 - **Reduce LLM vision inference cost**
 - **Enhance GUI design for a better user experience**
 - **Containerize the application for easier access**
-
----
-Let me know if you need any refinements! 🚀
 
