@@ -31,7 +31,7 @@ pip install -r requirements.txt
 It is **recommended** that you create a new development environment before doing so.
 
 ### Set Up OpenAI API Key
-Since Vision LLM is **expensive**, costing around **$0.002-0.003 per screenshot analysis**, you need to **set up the OpenAI API key** as an environment variable.
+Since Vision LLM is **expensive**, costing around **$0.002-0.003 per screenshot analysis**, you need to set up **your own** OpenAI API key as an environment variable. Go to [OpenAI API](https://platform.openai.com/docs/overview) to create your own API key. Then, navigate to your project directory via terminal and use the commands below:
 
 #### On macOS/Linux:
 ```bash
