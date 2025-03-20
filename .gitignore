@@ -1,0 +1,10 @@
+src/capture/screenshots
+
+src/history/focus_history.jsonl
+src/history/screenshot_history.jsonl
+
+venv/
+
+.DS_Store
+
+.env

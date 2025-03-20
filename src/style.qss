@@ -1,0 +1,75 @@
+QMainWindow {
+    background-color: #2C3E50;
+}
+
+QLineEdit {
+    background-color: #ecf0f1;
+    color: #2C3E50;
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+QPushButton {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+
+QPushButton:pressed {
+    background-color: #2980b9;
+}
+
+QPushButton:disabled {
+    background-color: #95a5a6;
+}
+
+QTextEdit {
+    background-color: #ecf0f1;
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    color: #2C3E50;
+}
+
+/* Remove default frame around the tab widget */
+QTabWidget::pane {
+    border: none;
+}
+
+/* Style for the individual tabs */
+QTabBar::tab {
+    background: #3498db;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 2px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-size: 14px;
+    min-width: 100px;
+}
+
+/* Style for the selected tab */
+QTabBar::tab:selected {
+    background: #2980b9;
+    border-bottom: 2px solid #ecf0f1;
+}
+
+/* Hover effect for the tabs */
+QTabBar::tab:hover {
+    background: #5dade2;
+}
+
+/* Optional: Remove focus border for a cleaner look */
+QTabBar::tab:focus {
+    outline: none;
+}
+
+/* Styling for QListWidget items for a cleaner list background */
+QListWidget {
+    background-color: transparent;
+    border: none;
+}
